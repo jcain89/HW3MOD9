@@ -32,7 +32,7 @@ def convert(s):
     # Return string 1
     return str1
 
-def createSet(s):
+def step(s):
     sol = []
     wordSet = list(s)
     alph: str = "ABCDEFFGHIJKLMNOPQRSTUVWXYZ"
@@ -60,5 +60,5 @@ def createSet(s):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print(createSet("HERAT"))
+    print(step("HERAT"))
 
