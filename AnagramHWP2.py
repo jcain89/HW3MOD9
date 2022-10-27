@@ -46,8 +46,6 @@ def step(s):
                 sol.append(a)
         wordSet = list(s)
     print(sol)
-    print(type(wordSet))
-
 #I changed my time complexity from O(n!) to O(n)
 
 
@@ -60,5 +58,5 @@ def step(s):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print(step("HERAT"))
+    step("HERAT")
 
